@@ -7,7 +7,7 @@ Fecha de esta versión del archivo:
 | Entrega | Fecha | Herramienta (ChatGPT, Cursor, Copilot, otra) | Para qué (diseño, código, debug, docs) | Qué pegaron o generaron | Qué reescribieron / revisaron a mano | Integrante |
 | --- | --- | --- | --- | --- | --- | --- |
 | E1 | 03/09/2026 | No usamos IA | --- | --- |--- |--- |
-| E2 |  |  |  |  |  |  |
+| E2 | 20/09/2026 | ChatGPT | como ayuda en el llamada de la funcion recursiva en opcion == 5  |pegamos algunas lineas | reescritura de llamada al metodo "versiones_de()"  | todos |
 | E3 |  |  |  |  |  |  |
 | E4 |  |  |  |  |  |  |
 | E5 |  |  |  |  |  |  |

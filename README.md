@@ -6,7 +6,7 @@ Repositorio del grupo. Partir de este esqueleto. No borrar la estructura de `src
 
 | Nombre | Mail | GitHub |
 | --- | --- | --- |
-|  Ramirez Andres  | ramirezandres4565@gmail.com  |  |
+|  Ramirez Andres  | ramirezandres4565@gmail.com  | https://github.com/ramirezandres4565-creator |
 |  Ramonet Joaquin | joaquinramonet1@gmail.com    |  |
 |  Solari Marcelo  | marcelosolari97@gmail.com    | https://github.com/SolariMarcelo  |
 

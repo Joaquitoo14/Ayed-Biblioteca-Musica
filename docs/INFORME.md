@@ -19,10 +19,16 @@ Un item del catalogo es un registro de cada elemento. En nuestro catalogo un ite
 
 ## 3. Recursión (E2)
 
-- Función:
-- Caso base:
-- Caso recursivo:
-- Traza de un ejemplo real del dataset:
+- Función: es la funcion llamada "versiones_de()"
+- Caso base: si no encuentra devuelve vacia 
+       if not directas:
+            return []
+- Caso recursivo: aplica recursivo cuando encuentra el id
+     for version in directas:
+            resultado += self.versiones_de(
+                version["cancion_id"]
+            )
+- Traza de un ejemplo real del dataset: el progrma es hecho con el ejemplo de id 1  y devuelve Versión ID: 62 - Tipo: live
 
 ## 4. TADs (E3)
 

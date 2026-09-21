@@ -1,5 +1,10 @@
 from src.config import TEMA
-from src.dominio.music  import CATALOGO, listar_catalogo
+from src.dominio.cancion  import CATALOGO, Cancion
+from src.dominio.biblioteca  import VERSION, Biblioteca
+
+
+
+
 
 TEMAS = {
     "pokedex": "Pokédex",
@@ -38,10 +43,26 @@ def main():
         mostrar_menu()
         opcion = input("> ").strip()
         if opcion == "1":
-            listar_catalogo()
+            Cancion.listar_catalogo()
+
+        if opcion == "5":
+            biblioteca = Biblioteca()
+
+            id_cancion = 1 #prueba con la id 1
+
+            resultado = biblioteca.versiones_de(id_cancion)
+
+            for version in resultado:
+                print(
+                    "Versión ID:",
+                    version["cancion_id"],
+                    "- Tipo:",
+                    version["tipo"]
+                )
+                
         elif opcion == "0":
             print("Chau.")
-        elif opcion in { "2", "3", "4", "5", "6", "7", "8", "9"}:
+        elif opcion in { "2", "3", "4", "6", "7", "8", "9"}:
             pendiente()
         else:
             print("Opción inválida.")
